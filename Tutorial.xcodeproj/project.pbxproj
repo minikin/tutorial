@@ -14,6 +14,8 @@
 		CE57D2751F51FF2C00E5354E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE57D2731F51FF2C00E5354E /* LaunchScreen.storyboard */; };
 		CE8C8EAF1F54B11500E6911D /* TutorialTextLabelPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C8EAE1F54B11500E6911D /* TutorialTextLabelPosition.swift */; };
 		CE8C8EB11F54B13800E6911D /* TutorialTextPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C8EB01F54B13800E6911D /* TutorialTextPosition.swift */; };
+		CEACB3F11F57370A007EC3B8 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEACB3F01F57370A007EC3B8 /* Circle.swift */; };
+		CEACB3F31F573761007EC3B8 /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEACB3F21F573761007EC3B8 /* TutorialView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		CE57D2761F51FF2C00E5354E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE8C8EAE1F54B11500E6911D /* TutorialTextLabelPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialTextLabelPosition.swift; sourceTree = "<group>"; };
 		CE8C8EB01F54B13800E6911D /* TutorialTextPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialTextPosition.swift; sourceTree = "<group>"; };
+		CEACB3F01F57370A007EC3B8 /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		CEACB3F21F573761007EC3B8 /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 			children = (
 				CE8C8EAE1F54B11500E6911D /* TutorialTextLabelPosition.swift */,
 				CE8C8EB01F54B13800E6911D /* TutorialTextPosition.swift */,
+				CEACB3F01F57370A007EC3B8 /* Circle.swift */,
+				CEACB3F21F573761007EC3B8 /* TutorialView.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -167,7 +173,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEACB3F11F57370A007EC3B8 /* Circle.swift in Sources */,
 				CE57D26D1F51FF2C00E5354E /* ViewController.swift in Sources */,
+				CEACB3F31F573761007EC3B8 /* TutorialView.swift in Sources */,
 				CE8C8EAF1F54B11500E6911D /* TutorialTextLabelPosition.swift in Sources */,
 				CE57D26B1F51FF2C00E5354E /* AppDelegate.swift in Sources */,
 				CE8C8EB11F54B13800E6911D /* TutorialTextPosition.swift in Sources */,

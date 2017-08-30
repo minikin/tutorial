@@ -1,8 +1,8 @@
 //
-//  TutorialTextPosition.swift
+//  TutorialView.swift
 //  Tutorial
 //
-//  Created by Sasha Prokhorenko on 8/28/17.
+//  Created by Sasha Prokhorenko on 8/30/17.
 //  Copyright © 2017 Sasha Prokhorenko All rights reserved.
 //
 //  Permission to use, copy, modify, and/or distribute this software for any purpose with or without
@@ -17,14 +17,28 @@
 //  OF THIS SOFTWARE.
 //
 
-// MARK: - Text position
-public enum TutorialTextPosition {
-  case bottomRight,
-  bottomLeft,
-  topLeft,
-  topRight,
-  centerLeft,
-  centerRight,
-  cenertTop,
-  centerBottom
+import UIKit
+
+class TutorialView: UIView {
+  
+  override init(frame: CGRect) {
+    
+    super.init(frame: frame)
+  }
+  
+  required init?(coder aDecoder: NSCoder) {
+    fatalError("init(coder:) has not been implemented")
+  }
+  
+  override func layoutSubviews() {
+    self.setNeedsDisplay()
+  }
+  
+  override func draw(_ rect: CGRect) {
+    
+  }
+  
+  
+  
+  
 }
